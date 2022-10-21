@@ -77,7 +77,7 @@ List * freeList(List* list){
         list = nextNode;
         nextNode = nextNode->next;
     }
-
+    free(list);
     return NULL;
 }
 
