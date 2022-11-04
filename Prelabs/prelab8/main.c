@@ -116,5 +116,5 @@ int main(){
 
     freeList(list);
 
-    printf("\nall good");
+    printf("all good\n");
 }
